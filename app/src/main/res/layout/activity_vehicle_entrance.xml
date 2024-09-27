@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2"
+    tools:context=".VehicleEntrance">
+    <EditText
+        android:id="@+id/edittextvehnumber5"
+        android:background="@drawable/edit_round"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="30sp"
+        android:hint="Enter Vehicle no"
+        android:paddingLeft="10sp"
+        android:textColorHint="#151515"/>
+
+    <EditText
+        android:id="@+id/edittextvehname5"
+        android:background="@drawable/edit_round"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/edittextvehnumber5"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Vehicle name"
+        android:textColorHint="#181717"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/edittextvehdrivername5"
+        android:hint="Enter Vehicle Driver Name "
+        android:background="@drawable/edit_round"
+        android:layout_below="@id/edittextvehname5"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:textColorHint="#111111"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/edittextvehdrivercnic5"
+        android:layout_below="@id/edittextvehdrivername5"
+        android:hint="Enter driver cnic"
+        android:paddingLeft="10sp"
+        android:textColorHint="#0E0E0E"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/edittextdriveremail5"
+        android:layout_marginTop="20sp"
+        android:hint="Enter driver Email "
+        android:background="@drawable/edit_round"
+        android:paddingLeft="20sp"
+        android:textColorHint="#0E0E0E"
+        android:layout_below="@id/edittextvehdrivercnic5"/>
+
+
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="390dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@id/edittextdriveremail5"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/round_btn"
+        android:src="@drawable/ic_baseline_photo_camera_24" />
+
+    <ImageButton
+        android:id="@+id/image40"
+        android:layout_width="396dp"
+        android:layout_height="82dp"
+        android:layout_below="@id/camera"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image40"
+        android:text="Upload"
+        android:textColor="#0D0C0D"
+        android:textAllCaps="false"
+        android:background="@drawable/round_btn"
+        android:layout_marginLeft="10sp"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/firebasebtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/upload"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/round_btn"
+        android:paddingLeft="10sp"
+        android:textAllCaps="false"
+        android:textColor="#121213"
+        android:layout_marginTop="15sp"
+        android:text="Enter Record to database"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Missing Vehicle Record"
+        android:textSize="35dp"
+        android:layout_marginLeft="15sp"
+        android:id="@+id/textview"
+        android:layout_marginTop="35sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="328dp"
+        android:id="@+id/searchfield"
+        android:layout_height="72dp"
+        android:layout_below="@id/textview"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/edit_round"
+        android:paddingLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:hint="Search Here"
+        android:textColorHint="#121213"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="165sp"
+        android:id="@+id/searchbtn"
+        android:layout_toRightOf="@id/textview"
+        android:background="@drawable/round_btn"
+        android:src="@drawable/ic_baseline_search_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview4"
+        android:layout_width="400dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="260sp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</RelativeLayout>

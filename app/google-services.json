@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "131038241692",
+    "project_id": "transportfirebase-3578e",
+    "storage_bucket": "transportfirebase-3578e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131038241692:android:e4b3dda9d8c230fb5a1e59",
+        "android_client_info": {
+          "package_name": "com.example.transportfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131038241692-22snb3149ipc0rqdc5irohf8iqc3q9t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.transportfirebase",
+            "certificate_hash": "75660b0ab9f64c2eb44b640aba525d008dd3d0f1"
+          }
+        },
+        {
+          "client_id": "131038241692-fkfkhc1f0q2a6i8qf6pej5fo3c8l38f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKB-Ph8R62wOnGQuiTpOFUcVwCrNM_s-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131038241692-fkfkhc1f0q2a6i8qf6pej5fo3c8l38f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

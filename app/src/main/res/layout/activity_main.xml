@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background2"
+    >
+    <include layout="@layout/appbar"/>
+    <ImageView
+        android:id="@+id/iiuibus"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_marginTop="60sp"
+        android:src="@drawable/ic_baseline_directions_bus_24" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iiuibus"
+        android:paddingLeft="10sp"
+        android:text="Welcome to International Islamic University Islamabad"
+        android:textColor="#ECEAF1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/stop"
+        android:textColor="#EAE7F1"
+        android:padding="10sp"
+        android:paddingLeft="10sp"
+        android:text="Stop Here to Register your Vehicle"
+        android:layout_below="@id/message"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailpess"
+        android:textSize="15sp"
+        android:textColor="#1D1D1E"
+        android:text="Enter Vehicle Entrance  Info"
+        android:layout_below="@id/stop"
+        android:padding="25sp"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="#F1F2F6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Vehicle  Leaving Info"
+        android:id="@+id/vehleav"
+        android:layout_below="@id/detailpess"
+        android:padding="25sp"
+        android:textSize="15sp"
+        android:textColor="#121213"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="#F3F4F8"/>
+
+
+
+</RelativeLayout>

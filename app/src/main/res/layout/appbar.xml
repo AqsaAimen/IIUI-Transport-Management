@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65sp"
+    android:background="#57C28C"
+    android:id="@+id/toolbar"
+    app:collapseIcon="@drawable/iiui"
+    app:titleTextAppearance="@style/Toolbar.TitleText"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/relative"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" IIUI  Transport"
+            android:textColor="#EEF5F5"
+            android:textSize="30dp"
+            android:layout_marginStart="60sp"
+            android:textStyle="bold"
+            android:paddingTop="10sp"
+            android:id="@+id/textview"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="5sp" />
+            <ImageButton
+         android:layout_width="65sp"
+        android:layout_height="45dp"
+    android:layout_marginStart="60sp"
+                android:id="@+id/search"
+                android:pointerIcon="arrow"
+                android:layout_toRightOf="@id/textview"
+                android:src="@drawable/ic_baseline_search_24"
+                android:backgroundTint="#57C28C"/>
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
